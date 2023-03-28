@@ -1,0 +1,5 @@
+dolares = float(input())
+cotacao = float(input())
+print(dolares * cotacao * 1.04 + 9.99)
+print(dolares * cotacao * 1.039 + 29.99)
+print(dolares * cotacao * 1.041)
