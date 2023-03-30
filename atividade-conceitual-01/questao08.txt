@@ -1,7 +1,5 @@
 a) encher uma bacia com água:
-    repita:
-        procurar bacia
-    até achar_bacia_vazia
+    procurar bacia
     pegar bacia
     procurar torneira
     posicionar bacia debaixo da torneira
