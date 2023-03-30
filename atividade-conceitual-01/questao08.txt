@@ -1,0 +1,72 @@
+a) encher uma bacia com água:
+    repita:
+        procurar bacia
+    até achar_bacia_vazia
+    pegar bacia
+    procurar torneira
+    posicionar bacia debaixo da torneira
+    abrir torneira
+    repita:
+        espere
+    até encher a bacia
+    fechar torneira
+
+b) trocar uma lâmpada no teto de sua casa:
+    testar interruptor
+    se funcionar:
+        lâmpada funcionando
+        fim do algoritmo
+    senão:
+        repita:
+            procurar lâmpada_nova
+            pegar lâmpada_nova
+            procurar escada
+            pegar escada
+            colocar escada embaixo da lâmpada
+            subir na escada
+            retirar lâmpada_antiga
+            guardar lâmpada_antiga
+            colocar lâmpada_nova
+            apertar bem a lâmpada_nova
+            descer da escada
+            testar interruptor
+        até lâmpada ligar
+        jogar lâmpadas antigas no lixo
+        guardar escada
+        fim do algoritmo
+
+c) trocar o pneu de um carro: 
+    abrir mala
+    pegar chaves
+    pegar macaco
+    pegar pneu_estepe
+    ir para o pneu_a_ser_trocado
+    para cada chave nas chaves:
+        pegar chave
+        testar no parafuso do pneu_a_ser_trocado
+        se funcionar:
+            separe a chave_certa
+            pare a retição
+    para cada parafuso do pneu:
+        colocar chave_certa no parafuso_atual
+        repita:
+            rotacionar no sentido antihorário
+        até o parafuso soltar
+        retirar parafuso
+        retirar chave_certa
+
+d) calcular a sua idade daqui a 20 anos:
+    pergunte a idade
+    leia a idade
+    idade é igual a idade + 20
+    escreva idade
+
+e) calcular a média de um aluno com 3 notas:
+    pergunte a primeira nota
+    leia nota1
+    pergunte a segunda nota
+    leia nota2
+    pergunte a terceira nota
+    leia nota3
+    media é igual a (nota1 + nota2 + nota3) / 3
+    escreva media
