@@ -1,0 +1,22 @@
+# entranda de dados
+entrada = input().strip()
+
+
+# tratamentos específicos para testes
+## remover o sinal de negativo ("-")
+teste_numeros = entrada.removeprefix('-')
+
+## remover o ponto e contar quantos tem
+teste_float = teste_numeros.replace('.', '')
+num_pontos = entrada.count('.')
+ponto_meio = '.' in entrada[1:-1]
+
+# testes
+if entrada in ('True', 'False'):
+    print('Lógico')
+elif teste_numeros.isnumeric() and num_pontos == 0:
+    print('Inteiro')
+elif teste_float.isnumeric() and num_pontos == 1 and ponto_meio:
+    print('Real')
+else:
+    print('Caracter')
